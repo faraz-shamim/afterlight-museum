@@ -6,6 +6,8 @@ Built from 27 October 2026 for [Hacktoberfest Week 4: Ghost in the Machine](http
 
 ![An imagined medical-history museum with a lantern-bearing ghost](web/public/art/afterlight-hero.webp)
 
+[Open the live museum](https://afterlight-museum.onrender.com/) · [Verified deployment](docs/deployment.json) · [Independent Linux CI](https://github.com/faraz-shamim/afterlight-museum/actions/runs/40442205177)
+
 ## The experience
 
 Six original rooms explore medical history through short evidence puzzles: Lind's citrus comparison, the Ether Dome, John Snow's water investigation, Lister's antiseptic system, the development of penicillin, and the worldwide smallpox eradication effort. Dramatized voices are explicitly fictional, never attributed quotations or real patients' testimony. Original exhibit summaries link to institutional sources and include curator notes about historical interpretation.
@@ -48,7 +50,7 @@ Render serves the guide's front end, compressed WASM assets and stateless eviden
 
 18 unit/API tests cover all 108 room/exhibit/answer combinations, validation, progress imports, ranking math, headers, malformed/oversized requests and rejection of extra text without echoing it. 19 browser checks exercise real model inference, all six room flows, wrong answers, actual verification requests, sources, passport download/restore, reload persistence, confirmed reset, mobile layouts, inert input, offline reload, keyboard completion, pinned requests and a synthetic-text network check.
 
-The [retrieval diagnostic](docs/retrieval-diagnostic.json) records all twelve development smoke probes: six original poetic whispers and six plain paraphrases. **11/12 top-one; 12/12 top-three.** The smallpox whisper ranks penicillin first and smallpox third. These are development examples over six curated exhibits, not an independent holdout or a validated accuracy benchmark. No learning-outcome study has been run. [Browser report](docs/browser-qa.json).
+The [retrieval diagnostic](docs/retrieval-diagnostic.json) records all twelve development smoke probes: six original poetic whispers and six plain paraphrases. **11/12 top-one; 12/12 top-three.** The smallpox whisper ranks penicillin first and smallpox third. These are development examples over six curated exhibits, not an independent holdout or a validated accuracy benchmark. No learning-outcome study has been run. [Local browser report](docs/browser-qa.json) · [Public Render browser report](docs/live-qa.json) · [Live verification-tool check](docs/render-tool-check.json).
 
 ## Run locally
 
@@ -81,3 +83,4 @@ The new Week 4 game, rooms, archive, source judgments, progress/passport, verifi
 AI coding assistance was used. The imagined museum illustration was created with the built-in OpenAI image-generation tool; the [exact prompt and saved asset paths](docs/artwork.md) are recorded. All interface screenshots show the running app. The image is not an archival photograph. No institutional logos or source illustrations are reproduced, and the cited institutions do not endorse this project.
 
 Code license: MIT. Third-party packages and models retain their respective licenses. Commits after the contest deadline, if any, must be explicitly identified here.
+

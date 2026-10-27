@@ -1,0 +1,28 @@
+{
+  "app": "Afterlight",
+  "url": "https://afterlight-museum.onrender.com/",
+  "repository": "https://github.com/faraz-shamim/afterlight-museum",
+  "provider": "Render",
+  "workspaceId": "tea-davpccc9v7es738mc8t0",
+  "serviceId": "srv-dbg1a16c6qcc73e0qkqg",
+  "deployId": "dep-dbg1a1mc6qcc73e0qofg",
+  "status": "live",
+  "sourceCommit": "11e3b614833f3a2f8f35b1f0e593f4530d74d8b8",
+  "finishedAt": "2026-10-27T03:06:40.486459Z",
+  "dashboardUrl": "https://dashboard.render.com/web/srv-dbg1a16c6qcc73e0qkqg",
+  "computePlan": "free",
+  "region": "singapore",
+  "runtime": "node",
+  "nodeVersion": "24.18.0",
+  "autoDeploy": false,
+  "buildCommand": "npm ci --ignore-scripts --include=dev && npm run build",
+  "startCommand": "npm start",
+  "databases": 0,
+  "paidWorkers": 0,
+  "applicationSecretsRequired": false,
+  "independentCI": {
+    "url": "https://github.com/faraz-shamim/afterlight-museum/actions/runs/40442205177",
+    "conclusion": "success",
+    "completedAt": "2026-10-27T03:06:28Z"
+  }
+}

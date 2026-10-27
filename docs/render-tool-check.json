@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-27T03:09:56.358Z",
+  "passed": true,
+  "health": {
+    "ok": true,
+    "app": "Afterlight",
+    "version": "1.0.0",
+    "storage": "browser-only",
+    "render": true,
+    "commit": "11e3b614833f3a2f8f35b1f0e593f4530d74d8b8",
+    "searchTextAccepted": false
+  },
+  "validToolRequest": {
+    "roomId": "voyage",
+    "exhibitId": "citrus",
+    "choice": 0
+  },
+  "validResponse": {
+    "roomId": "voyage",
+    "restored": true,
+    "evidenceMatch": true,
+    "reasonMatch": true,
+    "feedback": "The evidence and the reasoning fit. A memory has a place again.",
+    "ending": "The lantern catches a little orange peel. The sailor’s silhouette settles into the archive: a memory of comparison, uncertainty and people who waited for evidence.",
+    "archiveVersion": "2026-10-27.1",
+    "runtime": "render",
+    "durationMs": 0.05
+  },
+  "unexpectedTextStatus": 400,
+  "unexpectedTextReflected": false
+}
