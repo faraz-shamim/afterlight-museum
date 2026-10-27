@@ -1,0 +1,42 @@
+{
+  "url": "https://dev.to/faraz_s_0a6e70a4bbdc6622/afterlight-a-haunted-museum-where-medical-history-has-to-show-its-sources-24b4",
+  "checkedAt": "2026-10-27T03:11:34.810Z",
+  "checks": [
+    "Public HTTP 200 and correct title",
+    "Generated cover and three actual app screenshots load",
+    "Required tags, live demo, repository and Render category present",
+    "390px mobile article has no horizontal overflow"
+  ],
+  "images": [
+    {
+      "role": "cover",
+      "loaded": true
+    },
+    {
+      "alt": "The real Afterlight museum, with six medical-history rooms and a lantern-bearing illustrated ghost",
+      "loaded": true,
+      "dimensions": {
+        "width": 800,
+        "height": 982
+      }
+    },
+    {
+      "alt": "A real Afterlight investigation with local-model steps and source-linked evidence suggestions",
+      "loaded": true,
+      "dimensions": {
+        "width": 800,
+        "height": 1482
+      }
+    },
+    {
+      "alt": "The actual Afterlight passport after all six memories have been restored",
+      "loaded": true,
+      "dimensions": {
+        "width": 800,
+        "height": 914
+      }
+    }
+  ],
+  "mobileHorizontalOverflow": false,
+  "passed": true
+}

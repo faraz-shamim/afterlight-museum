@@ -1,6 +1,6 @@
 ---
 title: "Afterlight: A Haunted Museum Where Medical History Has to Show Its Sources"
-published: false
+published: true
 tags: devchallenge, hf26challenge, ai, education
 cover_image: https://raw.githubusercontent.com/faraz-shamim/afterlight-museum/main/web/public/art/afterlight-hero.webp
 description: "Six fictional ghosts. Six real medical histories. A local AI archive guide and a lantern for every story you restore."

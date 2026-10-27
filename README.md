@@ -6,7 +6,7 @@ Built from 27 October 2026 for [Hacktoberfest Week 4: Ghost in the Machine](http
 
 ![An imagined medical-history museum with a lantern-bearing ghost](web/public/art/afterlight-hero.webp)
 
-[Open the live museum](https://afterlight-museum.onrender.com/) · [Verified deployment](docs/deployment.json) · [Independent Linux CI](https://github.com/faraz-shamim/afterlight-museum/actions/runs/40442205177)
+[Open the live museum](https://afterlight-museum.onrender.com/) · [Published DEV entry](https://dev.to/faraz_s_0a6e70a4bbdc6622/afterlight-a-haunted-museum-where-medical-history-has-to-show-its-sources-24b4) · [Verified deployment](docs/deployment.json) · [Independent Linux CI](https://github.com/faraz-shamim/afterlight-museum/actions/runs/40442205177)
 
 ## The experience
 
@@ -83,4 +83,5 @@ The new Week 4 game, rooms, archive, source judgments, progress/passport, verifi
 AI coding assistance was used. The imagined museum illustration was created with the built-in OpenAI image-generation tool; the [exact prompt and saved asset paths](docs/artwork.md) are recorded. All interface screenshots show the running app. The image is not an archival photograph. No institutional logos or source illustrations are reproduced, and the cited institutions do not endorse this project.
 
 Code license: MIT. Third-party packages and models retain their respective licenses. Commits after the contest deadline, if any, must be explicitly identified here.
+
 
