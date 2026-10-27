@@ -1,0 +1,221 @@
+{
+  "checkedAt": "2026-10-27T03:03:22.319Z",
+  "model": {
+    "id": "Xenova/all-MiniLM-L6-v2",
+    "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "dtype": "q8",
+    "device": "wasm",
+    "dimensions": 384,
+    "license": "Apache-2.0"
+  },
+  "fixtureType": "Development smoke probes on a six-exhibit curated archive, not an independent holdout or clinical evaluation",
+  "top1": 11,
+  "top3": 12,
+  "total": 12,
+  "cases": [
+    {
+      "room": "voyage",
+      "kind": "dramatized-whisper",
+      "query": "I crossed an ocean with full barrels and an empty kind of nourishment. Six pairs waited in their hammocks. One small fruit left a different ending.",
+      "expected": "citrus",
+      "top1": "citrus",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "citrus",
+        "pump",
+        "smallpox",
+        "antisepsis",
+        "penicillin",
+        "ether"
+      ]
+    },
+    {
+      "room": "voyage",
+      "kind": "development-paraphrase",
+      "query": "A comparison on board a ship found oranges and lemons helped sick seamen.",
+      "expected": "citrus",
+      "top1": "citrus",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "citrus",
+        "antisepsis",
+        "pump",
+        "penicillin",
+        "ether",
+        "smallpox"
+      ]
+    },
+    {
+      "room": "theatre",
+      "kind": "dramatized-whisper",
+      "query": "They gathered above me in a room built for watching. Something changed the sound of surgery, and the news travelled far beyond these walls.",
+      "expected": "ether",
+      "top1": "ether",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "ether",
+        "penicillin",
+        "pump",
+        "antisepsis",
+        "smallpox",
+        "citrus"
+      ]
+    },
+    {
+      "room": "theatre",
+      "kind": "development-paraphrase",
+      "query": "A public demonstration changed surgery by reducing pain in a Boston operating room.",
+      "expected": "ether",
+      "top1": "ether",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "ether",
+        "antisepsis",
+        "penicillin",
+        "pump",
+        "citrus",
+        "smallpox"
+      ]
+    },
+    {
+      "room": "street",
+      "kind": "dramatized-whisper",
+      "query": "They blamed what drifted through the air. I remember the street, the handle, and the water we carried home. Follow the neighbours, not the fog.",
+      "expected": "pump",
+      "top1": "pump",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "pump",
+        "penicillin",
+        "smallpox",
+        "ether",
+        "citrus",
+        "antisepsis"
+      ]
+    },
+    {
+      "room": "street",
+      "kind": "development-paraphrase",
+      "query": "Water from one London street pump was linked to a cholera outbreak.",
+      "expected": "pump",
+      "top1": "pump",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "pump",
+        "penicillin",
+        "smallpox",
+        "antisepsis",
+        "ether",
+        "citrus"
+      ]
+    },
+    {
+      "room": "ward",
+      "kind": "dramatized-whisper",
+      "query": "The door was shut, yet an unseen visitor came with us. A new explanation changed what lay between a wound and the world outside it.",
+      "expected": "antisepsis",
+      "top1": "antisepsis",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "antisepsis",
+        "penicillin",
+        "ether",
+        "pump",
+        "smallpox",
+        "citrus"
+      ]
+    },
+    {
+      "room": "ward",
+      "kind": "development-paraphrase",
+      "query": "A surgeon applied microorganism ideas and chemical dressings to reduce wound infections.",
+      "expected": "antisepsis",
+      "top1": "antisepsis",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "antisepsis",
+        "penicillin",
+        "ether",
+        "pump",
+        "smallpox",
+        "citrus"
+      ]
+    },
+    {
+      "room": "laboratory",
+      "kind": "dramatized-whisper",
+      "query": "I was the empty space on a crowded dish. Someone noticed what would not grow. Others, years later, made that silence matter.",
+      "expected": "penicillin",
+      "top1": "penicillin",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "penicillin",
+        "ether",
+        "pump",
+        "smallpox",
+        "antisepsis",
+        "citrus"
+      ]
+    },
+    {
+      "room": "laboratory",
+      "kind": "development-paraphrase",
+      "query": "A fungus stopped nearby bacteria growing, and years later Oxford researchers developed the discovery.",
+      "expected": "penicillin",
+      "top1": "penicillin",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "penicillin",
+        "antisepsis",
+        "smallpox",
+        "pump",
+        "ether",
+        "citrus"
+      ]
+    },
+    {
+      "room": "world",
+      "kind": "dramatized-whisper",
+      "query": "Do not give one name all our lanterns. We knocked on doors, traced the missing stories, and watched until an old ward could finally stand empty.",
+      "expected": "smallpox",
+      "top1": "penicillin",
+      "top1Match": false,
+      "top3Match": true,
+      "ranking": [
+        "penicillin",
+        "ether",
+        "smallpox",
+        "pump",
+        "antisepsis",
+        "citrus"
+      ]
+    },
+    {
+      "room": "world",
+      "kind": "development-paraphrase",
+      "query": "Vaccination and surveillance around the globe led to the end of a disease in 1980.",
+      "expected": "smallpox",
+      "top1": "smallpox",
+      "top1Match": true,
+      "top3Match": true,
+      "ranking": [
+        "smallpox",
+        "pump",
+        "penicillin",
+        "antisepsis",
+        "ether",
+        "citrus"
+      ]
+    }
+  ]
+}

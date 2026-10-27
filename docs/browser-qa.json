@@ -1,0 +1,111 @@
+{
+  "startedAt": "2026-10-27T03:03:05.556Z",
+  "url": "http://127.0.0.1:4192",
+  "environment": "Production build, isolated browser",
+  "syntheticActions": true,
+  "clinicalValidation": false,
+  "checks": [
+    {
+      "name": "Six-room museum and offline shell load",
+      "passed": true
+    },
+    {
+      "name": "Genuine pinned MiniLM inference returns a ranked archive",
+      "passed": true,
+      "detail": [
+        "citrus",
+        "antisepsis",
+        "pump",
+        "penicillin",
+        "smallpox",
+        "ether"
+      ]
+    },
+    {
+      "name": "Wrong exhibit does not award a lantern",
+      "passed": true
+    },
+    {
+      "name": "Correct exhibit with unsupported reasoning does not restore a memory",
+      "passed": true
+    },
+    {
+      "name": "Correct evidence and reasoning call the actual verification tool",
+      "passed": true
+    },
+    {
+      "name": "All six rooms can be investigated and restored end to end",
+      "passed": true
+    },
+    {
+      "name": "Twelve actual model retrieval probes recorded without hiding failures",
+      "passed": true
+    },
+    {
+      "name": "Completed passport exports only progress metadata",
+      "passed": true
+    },
+    {
+      "name": "Progress survives a reload",
+      "passed": true
+    },
+    {
+      "name": "Reset needs confirmation and cancellation preserves progress",
+      "passed": true
+    },
+    {
+      "name": "Passport restoration merges saved lanterns",
+      "passed": true
+    },
+    {
+      "name": "Invalid passport cannot replace progress",
+      "passed": true
+    },
+    {
+      "name": "All six archive entries expose institutional sources and curator notes",
+      "passed": true
+    },
+    {
+      "name": "Manual archive works without AI and input is inert text",
+      "passed": true
+    },
+    {
+      "name": "Museum, archive, passport and investigation fit a 390px mobile viewport",
+      "passed": true
+    },
+    {
+      "name": "Cached app and real model work after offline reload; keyboard controls and local tool complete a room",
+      "passed": true
+    },
+    {
+      "name": "Synthetic private clue never leaves browser; tool bodies contain only IDs and answer index",
+      "passed": true
+    },
+    {
+      "name": "Every observed Hugging Face model request uses the immutable model revision",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "health": {
+    "ok": true,
+    "app": "Afterlight",
+    "version": "1.0.0",
+    "storage": "browser-only",
+    "render": false,
+    "commit": null,
+    "searchTextAccepted": false
+  },
+  "passed": true,
+  "modelRequests": [
+    "/Xenova/all-MiniLM-L6-v2/resolve/751bff37182d3f1213fa05d7196b954e230abad9/tokenizer.json",
+    "/Xenova/all-MiniLM-L6-v2/resolve/751bff37182d3f1213fa05d7196b954e230abad9/tokenizer_config.json",
+    "/Xenova/all-MiniLM-L6-v2/resolve/751bff37182d3f1213fa05d7196b954e230abad9/config.json",
+    "/Xenova/all-MiniLM-L6-v2/resolve/751bff37182d3f1213fa05d7196b954e230abad9/onnx/model_quantized.onnx"
+  ],
+  "toolCalls": 10
+}

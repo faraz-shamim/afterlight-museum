@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.runtime/
+.env*
+!.env.example
+test-results/
+web/public/onnx/
+web/public/licenses/
